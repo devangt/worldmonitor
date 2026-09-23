@@ -1,8 +1,6 @@
 name: Seed Freshness Monitor
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 # Transition publication must finish before the next observation can classify
